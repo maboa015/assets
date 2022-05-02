@@ -1,0 +1,58 @@
+html{
+    background-color: rgb(12, 2, 43);
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(224, 224, 224);
+}
+.text{
+    border: solid 2px rgb(255, 0, 85);
+    border-top: solid 20px rgb(255, 22, 100);
+    line-height: 20px;
+    width: 60%;
+    min-width: 400px;
+    margin-left: 20px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+p{
+    font-size: 12px;
+}
+.glitchy{
+    font-size: 12px;
+    animation-name: glitchy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes glitchy{
+    0%{
+        text-decoration: none;
+        color: rgb(224, 224, 224);
+        font-size: 12px;
+    }
+    39%{
+        text-decoration: none;
+        color: rgb(224, 224, 224);
+        font-size: 12px;
+    }
+    40%{
+        text-decoration: line-through;
+        color: rgb(255, 0, 85);
+        font-size: 14px;
+    }
+    59%{
+        text-decoration: none;
+        color: rgb(224, 224, 224);
+        font-size: 14px;
+    }
+    60%{
+        text-decoration: underline wavy rgb(255, 0, 85);
+        font-size: 12px;
+    }
+    65%{
+        text-decoration: overline dotted rgb(255, 0, 85);
+    }
+    80%{
+        text-decoration: none;
+    }
+
+}
